@@ -1,4 +1,4 @@
-# Hand Gesture Based Virtual Mouse Controller with Personalization
+<img width="869" height="81" alt="image" src="https://github.com/user-attachments/assets/7f82f1c6-cb26-4b4b-a4f1-d31d75a5f41f" /># Hand Gesture Based Virtual Mouse Controller with Personalization
 A machine learning-based virtual mouse controller that allows users to interact with a computer using hand gestures captured through a webcam.
 The system uses MediaPipe to detect 21 hand landmarks, extracts normalized landmark coordinates, and uses a Random Forest classifier to recognize hand gestures. Recognized gestures are then mapped to mouse actions using PyAutoGUI.
 The project also includes a customizable data collection process, allowing users to add their own hand gesture samples to the existing dataset and retrain the model for improved recognition of their gesture patterns.
@@ -21,5 +21,8 @@ The project combines: Computer Vision + Feature Engineering + Machine Learning +
 - Model and label encoder saved using Joblib
 
 ## How the Project Works
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/bfb33669-7e9e-4ce7-9f15-eab6a035221c" />
+<p align="center">
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/bfb33669-7e9e-4ce7-9f15-eab6a035221c" />
+Architecture of Gesture-Based Virtual Mouse System
+</p>
 
