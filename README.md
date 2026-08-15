@@ -23,6 +23,6 @@ The project combines: Computer Vision + Feature Engineering + Machine Learning +
 ## How the Project Works
 <p align="center">
 <img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/bfb33669-7e9e-4ce7-9f15-eab6a035221c" />
-Architecture of Gesture-Based Virtual Mouse System
 </p>
+<h3> </h3>Architecture of Gesture-Based Virtual Mouse System </h3>
 
