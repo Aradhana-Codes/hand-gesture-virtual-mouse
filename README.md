@@ -21,9 +21,8 @@ The project combines: Computer Vision + Feature Engineering + Machine Learning +
 - Model and label encoder saved using Joblib
 
 ## How the Project Works
-<p align="center">
 <img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/bfb33669-7e9e-4ce7-9f15-eab6a035221c" />
-</p>
+
 
 ## Supported Gestures
 
