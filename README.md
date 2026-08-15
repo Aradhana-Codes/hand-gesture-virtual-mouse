@@ -25,6 +25,16 @@ The project combines: Computer Vision + Feature Engineering + Machine Learning +
 <img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/bfb33669-7e9e-4ce7-9f15-eab6a035221c" />
 </p>
 
+## Supported Gestures
+
+### The current implementation supports four gestures:
+| Gesture | Action |
+| --- | --- |
+| 🖐️ palm | Move the mouse cursor |
+|🤏 pinch | Left click |
+|✌️ peace | Scroll based on finger movement |
+|✊ fist  | Scroll down |
+
 ## File Description
 ### 1. collect_data.py
 This script collects hand gesture data using the webcam.<br>
@@ -136,7 +146,7 @@ After collecting or adding gesture samples, run:
 python train_base_model.py<br>
 The script will: Load the CSV dataset, Encode gesture labels, Split the dataset, Train the Random Forest classifier, Calculate training accuracy, Calculate test accuracy and Save the trained model
 
-The generated files are:
+The generated files are:<br>
 models/base_model.pkl<br>
 models/label_encoder.pkl<br>
 
@@ -145,3 +155,19 @@ Run: python virtual_mouse.py<br>
 The webcam will open and the system will begin recognizing gestures.
 Press: q to exit.
 
+## Future Improvements
+
+### Possible improvements include:
+- Add more gesture classes.
+- Add right-click functionality.
+- Add drag-and-drop gestures.
+- Add gesture for double-click.
+- Add gesture for opening applications.
+- Add customizable gesture-to-action mapping.
+- Add automatic personalized model retraining.
+- Implement continuous/online learning.
+- Improve cursor smoothing.
+- Add a graphical user interface for gesture configuration.
+- Improve robustness under different lighting conditions.
+- Support multiple hands.
+- Add gesture history and prediction logging.
