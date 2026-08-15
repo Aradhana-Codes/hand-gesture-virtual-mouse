@@ -157,16 +157,12 @@ Press: q to exit.
 ## Future Improvements
 
 ### Possible improvements include:
-- Add more gesture classes.
-- Add right-click functionality.
-- Add drag-and-drop gestures.
-- Add gesture for double-click.
-- Add gesture for opening applications.
+- Add more hand gesture classes for additional mouse actions.
+- Add right-click, double-click, and drag-and-drop functionality.
 - Add customizable gesture-to-action mapping.
-- Add automatic personalized model retraining.
-- Implement continuous/online learning.
-- Improve cursor smoothing.
-- Add a graphical user interface for gesture configuration.
-- Improve robustness under different lighting conditions.
-- Support multiple hands.
-- Add gesture history and prediction logging.
+- Improve cursor smoothing and movement accuracy.
+- Improve robustness under different lighting and camera conditions.
+- Add automatic model retraining when new personalized gesture samples are collected.
+- Support multiple-hand gesture interactions.
+- Develop a simple GUI for gesture configuration and model management.
+
