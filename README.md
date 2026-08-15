@@ -1,4 +1,4 @@
-<img width="869" height="81" alt="image" src="https://github.com/user-attachments/assets/7f82f1c6-cb26-4b4b-a4f1-d31d75a5f41f" /># Hand Gesture Based Virtual Mouse Controller with Personalization
+# Hand Gesture Based Virtual Mouse Controller with Personalization
 A machine learning-based virtual mouse controller that allows users to interact with a computer using hand gestures captured through a webcam.
 The system uses MediaPipe to detect 21 hand landmarks, extracts normalized landmark coordinates, and uses a Random Forest classifier to recognize hand gestures. Recognized gestures are then mapped to mouse actions using PyAutoGUI.
 The project also includes a customizable data collection process, allowing users to add their own hand gesture samples to the existing dataset and retrain the model for improved recognition of their gesture patterns.
@@ -134,7 +134,7 @@ CSV	                  Gesture dataset storage
 
 ## Installation
 ### 1. Clone the Repository
-git clone https://github.com/YOUR-USERNAME/hand-gesture-virtual-mouse.git
+git clone https://github.com/Aradhana-Codes/hand-gesture-virtual-mouse.git
 
 Navigate to the project directory:
 cd hand-gesture-virtual-mouse
