@@ -3,6 +3,11 @@ A machine learning-based virtual mouse controller that allows users to interact 
 The system uses MediaPipe to detect 21 hand landmarks, extracts normalized landmark coordinates, and uses a Random Forest classifier to recognize hand gestures. Recognized gestures are then mapped to mouse actions using PyAutoGUI.
 The project also includes a customizable data collection process, allowing users to add their own hand gesture samples to the existing dataset and retrain the model for improved recognition of their gesture patterns.
 
+## Project Objective
+
+The main objective of this project is to create a touch-free computer interaction system that allows users to control basic mouse operations using hand gestures.
+The project combines: Computer Vision + Feature Engineering + Machine Learning + Human-Computer Interaction
+        
 ## Features
 - Real-time hand detection using MediaPipe
 - Extraction of 21 hand landmarks
