@@ -70,7 +70,7 @@ The project uses RandomForestClassifier(n_estimators=300)<br>
 The Random Forest model learns the relationship between the 63 hand landmark features and the corresponding gesture classes.
 The model calculates: Training accuracy, Test accuracy and saves the trained model to: models/base_model.pkl The label encoder is saved to: models/label_encoder.pkl using Joblib.
 
-#### 3. virtual_mouse.py
+### 3. virtual_mouse.py
 
 This is the main real-time application.
 It loads: models/base_model.pkl, models/label_encoder.pkl and starts the webcam.
